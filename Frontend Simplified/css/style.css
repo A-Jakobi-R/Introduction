@@ -1,0 +1,71 @@
+body{
+	background-color:#FFD1DC;
+}
+h1{
+	color:black;
+	font: bold 24px georgia,arial,sans-serif;
+	text-align: center;
+}
+a{
+	color:black;
+}
+a:active{
+	color:green;
+}
+a:hover{
+	color: red;
+}
+.box-1{
+	font:normal 16px  Arial, Helvetica, Sans-serif; 
+	border:3px dotted #ccc;
+	padding:20px;
+	margin:20px 0;
+	background-color: lightblue;
+}
+.container{
+		width:80%;
+		margin:auto;}
+.categories{
+	border:1px #ccc solid;
+	padding:10px;
+	border-radius:15px;
+}
+
+.categories{
+	background-color: lightblue;
+}
+
+.categories h2{
+	text-align:center;
+}
+.categories p{
+	text-align: center;
+}
+
+.categories ul{
+padding:0;
+list-style:square;
+list-style:none;
+}
+
+.categories li{
+	padding-bottom:6px;
+	border-bottom:dotted 1px #333;
+	list-style-image: url('../images/check.png');
+}
+.my-form{
+	padding:20px;
+}
+
+.my-form .form-group{
+	padding-bottom:15px;
+}
+
+.my-form label{
+	display:block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+	padding:8px;
+	width:100%;
+}
